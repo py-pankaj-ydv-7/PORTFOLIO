@@ -1,9 +1,48 @@
 import React from 'react'
+import ReactTypingEffect from 'react-typing-effect'
 
 const About = () => {
   return (
-    <div>About</div>
+    <section id='about'
+    className='py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32'>
+
+      <div className='flex flex-col-reverse md:flex-row justify-between items-center'>
+        <div className='md:w-1/2 text-center md:text-left mt-8 md:mt-0'>
+        <h1 className='text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight'>Hi, I am </h1>
+        <h2 className='text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight'>Pankaj Yadav </h2>
+
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
+            <span className="text-white">I am a </span>
+            <TypeAnimation
+  sequence={[
+    'Fullstack Developer', 2000,
+    'App Developer', 2000,
+    'UI/UX Designer', 2000,
+    'Coder', 2000,
+  ]}
+  speed={50}
+  repeat={Infinity}
+  wrapper="span"
+    cursor={true}
+/>
+          </h3>
+          {/* About Me Paragraph */}
+          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
+            I am a full-stack developer with over 2 years of experience in
+            building scalable web applications. Skilled in both front-end and
+            back-end development, I specialize in the MERN stack and other
+            modern technologies to create seamless user experiences and
+            efficient solutions.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
   )
 }
 
 export default About
+
+/// 1ghante se start karni hai
