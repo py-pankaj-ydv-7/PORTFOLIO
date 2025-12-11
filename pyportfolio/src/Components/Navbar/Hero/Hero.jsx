@@ -8,7 +8,7 @@ function Hero() {
     <div className='hero'>
         {/* <img src={profile_img} alt="" /> */}
         <img src={pankaj_profile} alt="" />
-        <h1>I'm Pankaj Yadav, frontend developer based in INDIA.</h1>
+        <h1><span>I'm Pankaj Yadav,</span> frontend developer based in INDIA.</h1>
         <p>I am a frontend developer from Noida. India with 2 year of experience in multiple companies like Microsoft, Tesla and Apple.</p>
         <div className='hero-action'>
             <div className="hero-connect">Connect With Me</div>
@@ -22,4 +22,3 @@ function Hero() {
 export default Hero
 
 
-// 25 minute pe ruk diya tha 
