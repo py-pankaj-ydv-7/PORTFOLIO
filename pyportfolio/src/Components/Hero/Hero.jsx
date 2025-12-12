@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 // import profile_img from '../../../assets/profile_img.svg'
-import pankaj_profile from '../../../assets/pankaj_profile.jpg'
+import pankaj_profile from '../../assets/pankaj_profile.jpg'
 
 function Hero() {
   return (
