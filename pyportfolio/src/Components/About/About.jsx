@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../Assets/theme_pattern.svg'
-import profile_img from '../../Assets/profile_img.svg'
+import Pankaj_Yadav_about_profile from '../../Assets/Pankaj_Yadav_about_profile.jpg'
 
 function About() {
   return (
@@ -12,7 +12,7 @@ function About() {
         </div>
         <div className="about-sections">
             <div className="about-left">
-                <img src={profile_img} alt="profile img hai" />
+                <img src={Pankaj_Yadav_about_profile} alt="profile img hai" />
             </div>
             <div className="about-right">
                 <div className="about-para">
@@ -25,6 +25,22 @@ function About() {
                     <div className="about-skill"><p>JavaScript </p><hr style={{width:"60%"}}/> </div>
                     <div className="about-skill"><p>Next Js </p><hr style={{width:"50%"}}/> </div>
                 </div>
+            </div>
+        </div>
+        <div className="about-achievements">
+            <div className="about-achievement">
+                <h1>2+</h1>
+                <p>YEARS OF EXPERIENCE</p>
+            </div>
+            <hr />
+            <div className="about-achievement">
+                <h1>90+</h1>
+                <p>PROJECTS COMPLETED</p>
+            </div>
+            <hr />
+            <div className="about-achievement">
+                <h1>15+</h1>
+                <p>HAPPY CLIENTS</p>
             </div>
         </div>
     </div>
