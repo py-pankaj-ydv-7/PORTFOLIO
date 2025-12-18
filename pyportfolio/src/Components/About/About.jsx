@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import Pankaj_Yadav_about_profile from '../../Assets/Pankaj_Yadav_about_profile.jpg'
+import Pankaj_Yadav_about_profile from '../../assets/Pankaj_Yadav_about_profile.jpg'
 
 function About() {
   return (
