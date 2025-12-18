@@ -5,7 +5,7 @@ import Pankaj_Yadav_about_profile from '../../Assets/Pankaj_Yadav_about_profile.
 
 function About() {
   return (
-    <div className='about'>
+    <div id='about' className='about'>
         <div className="about-title">
         <h1>About</h1>
         <img src={theme_pattern} alt="" />
