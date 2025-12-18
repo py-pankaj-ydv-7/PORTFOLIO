@@ -6,6 +6,7 @@ import Services from './Components/Services/Services'
 import MyWork from './Components/MyWork/MyWork'
 import Contact from './Components/Contact/Contect'
 import Footer from './Components/Footer/Footer'
+// import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       <Services/>
       <MyWork/>
       <Contact/>
-      <Footer/>
+      {/* <Footer/>
+       */}
+       <Footer/>
     </div>
   )
 }
