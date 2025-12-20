@@ -16,7 +16,7 @@
 }
 
 .footer-top-right{
-    display: flex;
+    display: flex; 
     align-items: center;
     gap: 35px;
 }
@@ -74,7 +74,7 @@
 
 
 
-@media(max-width: 768px){
+@media(min-width: 375px) and (max-width: 768px){
     .footer{
         margin: 50px 70px;
     }
