@@ -83,6 +83,11 @@
         flex-direction: column;
         gap: 50px;
     }
+    .footer-top-right{  /*ye mene changes kiye hai mene */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
 
 
     .footer-bottom{
