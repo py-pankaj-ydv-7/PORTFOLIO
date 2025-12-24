@@ -15,9 +15,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 170px;
+    /* padding: 20px 170px; */
     /* background: #1f1e1c; */
+    padding: 16px 20px;  /* mobile default */
 }
+
+
 
 .nav-menu{
     display: flex;
@@ -66,12 +69,17 @@ body{
 .nav-mob-open{
     display: none;
 }
+@media (min-width: 1024px){
+    .navbar{
+        padding: 20px 170px;
+    }
+}
 
-@media(min-width: 375px) and (max-width:768px){
+@media(max-width:768px){
     
     .navbar{
         
-        margin: 20px 50px;
+        margin:0;
     }
     .nav-connect{
         display: none;
